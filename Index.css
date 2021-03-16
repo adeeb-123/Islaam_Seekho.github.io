@@ -1,0 +1,709 @@
+body {
+  margin: 0rem;
+  padding: 0rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar CSS */
+
+.navbar {
+  display: flex;
+  background-color: #00000017;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  margin: 0rem;
+  margin-top: 5px;
+  padding-left: 0rem;
+}
+.navigation li {
+  list-style: none;
+  margin: 2px 6px;
+  padding: 5px 10px;
+}
+.navigation a {
+  text-decoration: none;
+  font-family: Poppins;
+  color: white;
+}
+.navigation a:hover {
+  border: 1px solid white;
+  padding: 5px 1px;
+  border-radius: 5px;
+}
+
+/* Salaam Section CSS */
+
+.Salaam-Section::before {
+  content: "";
+  position: absolute;top: 0px;
+  height: 100%;
+  width: 100%;
+  background: url(home_background.jpeg), no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  z-index: -1;
+  opacity: 0.8;
+}
+.Salaam-Section {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 663px;
+}
+.Salaam-Section h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 100;
+}
+.Salaam-Section p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.Salaam-Section a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 1px solid blue;
+  font-family: Lexend Mega;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0rem;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: rgb(128 128 128 / 33%);
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.Salaam-Section a:hover {
+  background-color: blue;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+/* Five Pillar of Islaam Section */
+
+.FivePillar-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.FivePillar-Section .fiveheading {
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.fiveheadingimg {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px 500px;
+  text-align: center;
+}
+.fivepillars {
+  display: grid;
+  margin: 30px;
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+  /* flex-wrap: wrap; */
+}
+.fivepillars .box1 {
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fivepillars .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.fivepillars .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.fivepillars .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.fivepillars .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+.fivepillars img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+/* Section Divides */
+
+.section-divider {
+  border: 1px solid blue;
+  box-shadow: 1px 1px 7px rgb(10, 10, 237);
+  width: 0px;
+  animation-name: section-divider-animate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes section-divider-animate {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 93%;
+  }
+}
+
+.section-divider-static {
+  border: 0.1px solid black;
+  box-shadow: 0.1px 0.1px 0.9px black;
+}
+
+/* Shahada arabic section */
+
+.shahadah-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.shahadah-box-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  width:93%;
+  box-shadow: -1px -1px 8px black;
+}
+.shahadah-box-section:hover {
+  box-shadow: -1px -1px 8px blue;
+}
+
+.shahadah-arabic-text {
+  font-size: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2c3e50;
+}
+.shahadah-english-text {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #2c3e50;
+  font-family: Poppins;
+}
+.shahadah-meaning {
+  background-color: rgba(50, 50, 248, 0.213);
+  padding: 2px 12px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+  box-shadow: 1px 1px 10px blue;
+  width: 93%;
+}
+.shahadah-meaning:hover {
+  background-color: rgba(36, 35, 35, 0.268);
+  color: blue;
+  box-shadow: 1px 1px 10px black;
+}
+
+/* Our-Course-Section */
+
+.OurCourse-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.OurCourse-Section .ourcourse-heading {
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.ourcourse-heading-img {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px 500px;
+  text-align: center;
+}
+.ourcourse {
+  display: grid;
+  margin: 30px;
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.ourcourse .box1 {
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ourcourse .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.ourcourse .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.ourcourse .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.ourcourse .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+.ourcourse img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+/* Guide to Islaam Section */
+
+.GuideToIslaam-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.GuideToIslaam-Section .guidetoislaam-heading1 {
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.GuideToIslaam-Section .shorttext-guidetoislaam{
+  display: none;
+}
+.GuideToIslaam-Section .guidetoislaam-heading2 {
+  font-family: Poppins;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.guidetoislaam-img {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px 500px;
+  text-align: center;
+}
+.guidetoislaam {
+  display: grid;
+  margin: 30px;
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.guidetoislaam .box1 {
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guidetoislaam .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.guidetoislaam .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.guidetoislaam .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.guidetoislaam .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+.guidetoislaam2 {
+  display: flex;
+  margin: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.guidetoislaam2 .box1 {
+  width: 200px;
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guidetoislaam2 .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.guidetoislaam2 .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.guidetoislaam2 .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.guidetoislaam2 .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+.guidetoislaam img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.guidetosalah2 img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+/* Guide To Salah Section */
+
+.GuideToSalah-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.GuideToSalah-Section .guidetosalah-heading1 {
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.GuideToSalah-Section #guidetosalah-shorttext{
+  display: none;
+}
+.GuideToSalah-Section .guidetosalah-heading2 {
+  font-family: Poppins;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.guidetosalah-img {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px 500px;
+  text-align: center;
+}
+.guidetosalah {
+  display: grid;
+  margin: 30px;
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+
+}
+.guidetosalah .box1 {
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guidetosalah .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.guidetosalah .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.guidetosalah .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.guidetosalah .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+.guidetosalah2 {
+  display: flex;
+  margin: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.guidetosalah2 .box1 {
+  width: 200px;
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guidetosalah2 .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.guidetosalah2 .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.guidetosalah2 .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.guidetosalah2 .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+.guidetosalah3 {
+  display: flex;
+  margin: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.guidetosalah3 .box1 {
+  width: 800px;
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guidetosalah3 .box1 h1 {
+  margin-bottom: 0px;
+  font-family: Poppins;
+  text-decoration: underline;
+}
+.guidetosalah3 .box1 .box1-text {
+  font-family: "Voces", cursive;
+  text-align: center;
+}
+.guidetosalah3 .box1 a {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 15px;
+}
+.guidetosalah3 .box1 a:hover {
+  background-color: blue;
+  color: white;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+.guidetosalah img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.guidetosalah2 img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.guidetosalah3 img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+/* Footer Section */
+
+
+.Footer-Section::before {
+  content: "";
+  position: absolute;
+  background-image: url(footerback.jpg);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.Footer-Section {
+  height: 100vh;
+  display: grid;
+  /* grid-gap: 20px; */
+  justify-content: center;
+  grid-template-areas:
+      'footerimg footerimg footerimg footerimg'
+      'footertxt footertxt footertxt footertxt'
+      'footerlink footerlink footerlink footerlink'
+      'copyright copyright copyright copyright';
+}
+
+.Footer-Section img {
+  grid-area: footerimg;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 1px 0px 5px royalblue;
+}
+
+.footertext {
+  grid-area: footertxt;
+  color: white;
+  font-family: Poppins;
+  font-weight: 900;
+  margin: auto;
+  font-size: 19px;
+  text-align: center;
+}
+.footertext a{
+  color: rgb(51, 125, 185);
+  font-family: Poppins;
+  text-decoration: none;
+}
+.footertext a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.footerlinks{
+  grid-area: footerlink;
+}
+.footerlinks-list{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footerlinks-list li{
+  font-family: Poppins;
+  font-weight: 900;
+  list-style: none;
+  margin: 2px 5px;
+  padding: 1px 5px;
+}
+.footerlinks-list li a{
+  text-decoration: none;
+  color: rgb(2, 135, 153);
+  box-shadow: 1px 1px 7px rgb(2, 23, 84);
+  padding: 1px 10px;
+}
+#fb:hover{
+  box-shadow: 2px 2px 17px rgba(0, 0, 255, 0.623);
+}
+#insta:hover{
+  box-shadow: 2px 2px 17px pink;
+}
+#linkd:hover{
+  box-shadow: 2px 2px 17px rgba(0, 0, 255, 0.623);
+}
+#yt:hover{
+  box-shadow: 2px 2px 17px red;
+}
+
+
+.copyright{
+  grid-area: copyright;
+  color: white;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+
+
+
+/* Scroll-bar Customization */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(89, 89, 230, 0.686);
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rebeccapurple;
+}

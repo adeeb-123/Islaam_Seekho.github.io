@@ -1,0 +1,36 @@
+/* Navigation Bar CSS */
+
+/* Salaam Section CSS */
+
+#Salaam-Section{
+    height: 100vh;
+}
+
+
+.FivePillar-Section .fiveheadingimg{
+    margin: 0px 200px;
+}
+.FivePillar-Section .fivepillars{
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+
+.OurCourse-Section .ourcourse-heading-img{
+    margin: 0px 200px;
+}
+.OurCourse-Section .ourcourse{
+    grid-template-columns: repeat(autofit,minmax(200px,1fr));
+}
+
+.GuideToIslaam-Section .islaamimg-ourcourse{
+    width: 200px;
+}
+
+
+.GuideToIslaam-Section .guidetoislaam-img{
+    margin: 0px 200px;
+}
+
+.GuideToSalah-Section .guidetosalah-img{
+    margin: 0px 200px;
+}

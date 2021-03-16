@@ -1,0 +1,22 @@
+/* Navigation Bar CSS */
+header .navbar{
+    background-color: #000000a8;
+    flex-direction: column;
+    position: fixed;
+}
+.navbar .navigation{
+    margin: 0px;
+    box-shadow: 11px 11px 12px #00000085;
+}
+.navbar .navigation li{
+    margin: 10px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#Salaam-Section{
+    padding: 3px 50px;
+    height: 100vh;
+}

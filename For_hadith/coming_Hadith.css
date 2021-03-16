@@ -1,0 +1,45 @@
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hadith_bckg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1{
+    font-size: 3.75rem;
+    letter-spacing: 0.93rem;
+}
+hr{
+    width: 50%;
+    margin: 30px auto;
+    border: 0.09rem solid #fff;
+}
+p{
+    font-size: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+#launch{
+    font-size: 2.5rem;
+    word-spacing: 1.25rem;
+}
+.designed{
+    font-size: 0.9rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+

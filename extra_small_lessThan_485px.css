@@ -1,0 +1,76 @@
+/* Navigation Bar CSS */
+header .navbar {
+  background-color: #000000a8;
+  flex-direction: column;
+  position: fixed;
+}
+.navbar .navigation {
+  margin: 0px;
+  box-shadow: 11px 11px 12px #00000085;
+}
+
+.navbar .navigation li {
+  margin: 2px;
+  /* margin-right; */
+}
+
+#Salaam-Section {
+  padding: 3px 50px;
+  height: 100vh;
+}
+
+
+.FivePillar-Section .fivepillars{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.fivepillars img {
+    width: 85px;
+}
+  
+.OurCourse-Section .ourcourse{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.ourcourse img{
+    width: 215px;
+}
+
+/* Guide To Islaam-Section */
+
+.GuideToIslaam-Section .guidetoislaam{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.guidetoislaam img{
+    width: 215px;
+}
+
+.GuideToIslaam-Section #guidetoislaam-shorttext {
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.GuideToIslaam-Section .guidetoislaam-heading1 {
+  display: none;
+}
+
+/* Guide To Salah-Section */
+
+.GuideToSalah-Section .guidetosalah{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.guidetosalah img{
+    width: 215px;
+}
+
+#GuideToSalah-Section #guidetosalah-shorttext {
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.GuideToSalah-Section .guidetosalah-heading1 {
+  display: none;
+}

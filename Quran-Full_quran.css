@@ -1,0 +1,106 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg);
+    
+}
+.Title{
+    font-size:4rem;
+    font-family: Montserrat;
+    margin-left: 5rem;
+    text-shadow: .6rem .4rem 0.8rem rgba(128, 128, 128, 0.644);    
+    color: #00acc1;
+}
+.Title:hover{
+    color: green;
+}
+.surahwise{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 10rem;
+    position: relative;
+    bottom: 5.6rem;
+    left: 21.7rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-shadow: .6rem .4rem 0.8rem rgba(128, 128, 128, 0.644);
+}
+.quranIMG{
+    width: 26.7rem;
+    margin-left: 55rem;
+}
+
+
+.surahonline{
+    position: relative;
+    top: 18.3rem;
+    left: 22.2rem;
+    font-size: 2.8rem;
+    text-decoration: none;
+    font-family: cursive;
+    background-color: white;
+    border: .1rem solid rgba(0, 0, 0, 0.27);
+    border-radius: 6.6rem;
+    padding: 1.5rem;
+}
+.surahonline:hover{
+    background-color: #00acc19c;
+    color: #fff!important;
+    box-shadow: 1rem 1rem 2rem cornflowerblue;
+}
+
+
+.surahdownload{
+    position: relative;
+    top: 18.3rem;
+    left: 22.2rem;
+    font-size: 2.8rem;
+    text-decoration: none;
+    font-family: cursive;
+    background-color: white;
+    border: .1rem solid rgba(0, 0, 0, 0.27);
+    border-radius: 6.6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2.9rem;
+    padding-left: 2.9rem;
+    top: 14.4rem;
+    left: 103.9rem;
+}
+.surahdownload:hover{
+    background-color: #00acc19c;
+    color: #fff!important;
+    box-shadow: 1rem 1rem 2rem cornflowerblue;
+}
+
+
+
+
+
+@media screen and (min-width:1367px){
+    .footer{
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
